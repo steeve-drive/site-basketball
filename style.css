@@ -101,3 +101,68 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+/* SECTION CONTACT */
+
+.contact{
+max-width: 800px;
+margin: 50px auto;
+padding: 30px;
+background: #ffffff;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+.contact h2{
+color: #1d428a;
+margin-bottom: 20px;
+}
+
+.contact p{
+font-size: 16px;
+margin-bottom: 25px;
+color: #333;
+}
+
+/* FORMULAIRE CONTACT */
+
+.contact form{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.contact label{
+text-align: left;
+font-weight: bold;
+color: #1d428a;
+}
+
+.contact input,
+.contact textarea{
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 15px;
+}
+
+.contact input:focus,
+.contact textarea:focus{
+outline: none;
+border: 1px solid #c8102e;
+}
+
+.contact button{
+background: #1d428a;
+color: white;
+border: none;
+padding: 12px;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.contact button:hover{
+background: #c8102e;
+}
